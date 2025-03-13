@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://your-solution-url.com) **add github HTML code URL here**
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com) **add netlify URL here**
 
 ### Built with
 
@@ -31,7 +31,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I was on a course i saw online, a free resource for learning to "write CSS that does'nt break the responsiveness of the web" and I got to apply what I'd been learning with the max-height and min-height CSS code sinppets below. I'm really proud of myself ✨.
+I was on a course I found online, a free resource for learning to "write CSS that doesn't break the responsiveness of the web" and I got to apply what I'd been learning with the max-height and min-height CSS code sinppets below. I'm really proud of myself ✨.
+
+I used this CSS:
 
 ```css
 .qr-code-img {
@@ -43,6 +45,21 @@ I was on a course i saw online, a free resource for learning to "write CSS that 
   display: flex;
 }
 ```
+
+Instead of using:
+
+```css
+.qr-code-img {
+  width: 100%;
+  height: 600px;
+}
+.container {
+  height: 60vh;
+  display: flex;
+}
+```
+
+which would have caused a lot of trouble on smaller screens
 
 ### Continued development
 
